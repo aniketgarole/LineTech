@@ -337,6 +337,159 @@
       "camera":"8MP Dual Camera | 5MP Front Camera",
       "price":6399,
       "category":"mobile"
+    },
+    {
+      "id": 43,
+      "name": " Infinix Note 12 Pro 5G (For..",
+      "image":"https://rukminim1.flixcart.com/image/300/300/l5bd5zk0/mobile/h/5/r/-original-imaggygkfcg6vmad.jpeg?q=90",
+      "discription":"8 GB RAM | 128 GB ROM | Expandable Upto 2 TB",
+      "camera":"108MP + 2MP (Depth) + 2MP (Macro) | 16MP Front Camera",
+      "price":16399,
+      "category":"mobile"
+    },
+    {
+      "id": 45,
+      "name": " Infinix Hot 12 Pro (Lightsa.",
+      "image":"https://rukminim1.flixcart.com/image/300/300/xif0q/mobile/e/q/m/-original-imaggsay4k2pmbpy.jpeg?q=90",
+      "discription":"6 GB RAM | 64 GB ROM | Expandable Upto 256 GB",
+      "camera":"50 MP + Depth Lens | 8MP Front Camera",
+      "price":15399,
+      "category":"mobile"
+    },
+    {
+      "id": 46,
+      "name": "Infinix HOT 20 5G (Space Bl",
+      "image":"https://rukminim1.flixcart.com/image/300/300/xif0q/mobile/a/r/9/-original-imagkgrx78mkbd3e.jpeg?q=90",
+      "discription":"4 GB RAM | 64 GB ROM | Expandable Upto 1 TB",
+      "camera":"50MP + AI Lens | 8MP Front Camera",
+      "price":15399,
+      "category":"mobile"
+    },
+    {
+      "id": 47,
+      "name": "vivo T1 44W (Midnight Galaxy, 128 GB)",
+      "image":"https://rukminim1.flixcart.com/image/300/300/ksm49e80/mobile/y/6/g/y33s-v2109-vivo-original-imag65dv7hfk6pqy.jpeg?q=90",
+      "discription":"8 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+      "camera":"50MP + 2MP + 2MP | 16MP Front Camera",
+      "price":13399,
+      "category":"mobile"
+    },
+    {
+      "id": 48,
+      "name": "2. vivo Y16 (Drizzling Gold, 6.",
+      "image":"https://rukminim1.flixcart.com/image/300/300/xif0q/mobile/r/d/p/-original-imaggcerdxgpxyh3.jpeg?q=90",
+      "discription":"4 GB RAM | 64 GB ROM | Expandable Upto 1 TB",
+      "camera":"13MP + 2MP | 5MP Front Camera",
+      "price":11199,
+      "category":"mobile"
+    },
+    {
+      "id": 49,
+      "name": " APPLE iPhone 12 (Purple, 12...",
+      "image":"https://rukminim1.flixcart.com/image/300/300/ko0d6kw0/mobile/6/h/y/iphone-12-mjnm3hn-a-apple-original-imag2k2v6ehvnzfd.jpeg?q=90",
+      "discription":"15.49 cm (6.1 inch) Super Retina XDR Display",
+      "camera":"12MP + 12MP | 12MP Front Camera",
+      "price":75000,
+      "category":"mobile"
+    },
+    {
+      "id": 50,
+      "name": " APPLE iPhone 13 (Pink, 128 ...",
+      "image":"https://rukminim1.flixcart.com/image/300/300/ktketu80/mobile/8/z/w/iphone-13-mlph3hn-a-apple-original-imag6vzzhrxgazsg.jpeg?q=90",
+      "discription":"15.49 cm (6.1 inch) Super Retina XDR Display",
+      "camera":"12MP + 12MP | 12MP Front Camera",
+      "price":80000,
+      "category":"mobile"
+    },
+    {
+      "id": 51,
+      "name": " APPLE iPhone 14 Plus (Purpl...",
+      "image":"https://rukminim1.flixcart.com/image/300/300/xif0q/mobile/v/0/t/-original-imaghxa5rgcv5enm.jpeg?q=90",
+      "discription":"17.02 cm (6.7 inch) Super Retina XDR Display",
+      "camera":"12MP + 12MP | 12MP Front Camera",
+      "price":79000,
+      "category":"mobile"
+    },
+    {
+      "id": 52,
+      "name": " APPLE iPhone 11 (Black, 64 ...",
+      "image":"https://rukminim1.flixcart.com/image/300/300/k2jbyq80pkrrdj/mobile-refurbished/x/j/s/iphone-11-128-d-mwm02hn-a-apple-0-original-imafkg242ugz8hwc.jpeg?q=90",
+      "discription":"15.49 cm (6.1 inch) Liquid Retina HD Display",
+      "camera":"12MP + 12MP | 12MP Front Camera",
+      "price":69000,
+      "category":"mobile"
+    },
+    {
+      "id": 53,
+      "name": "OPPO F21 Pro (Sunset Orange...",
+      "image":"https://rukminim1.flixcart.com/image/300/300/l1zc6fk0/mobile/u/7/w/f21-pro-cph2363-oppo-original-imagdf4jphscz9jz.jpeg?q=90",
+      "discription":"8 GB RAM | 128 GB ROM",
+      "camera":"64MP Rear Camera",
+      "price":16900,
+      "category":"mobile"
+    },
+    {
+      "id": 54,
+      "name": " OPPO K10 5G (Ocean Blue, 12...",
+      "image":"https://rukminim1.flixcart.com/image/300/300/l4d2ljk0/mobile/x/d/z/-original-imagf9wt5emzsjqz.jpeg?q=90",
+      "discription":"8 GB RAM | 128 GB ROM | Expandable Upto 1 TB",
+      "camera":"48MP + 2MP | 8MP Front Camera",
+      "price":17900,
+      "category":"mobile"
+    },
+    {
+      "id": 55,
+      "name": "OPPO A78 5G (Glowing Blue, ",
+      "image":"https://rukminim1.flixcart.com/image/300/300/xif0q/mobile/i/s/m/-original-imagmfppbmfcmhd6.jpeg?q=90 ",
+      "discription":"8 GB RAM | 128 GB ROM",
+      "camera":"13MP Rear Camera",
+      "price":15900,
+      "category":"mobile"
+    },
+    {
+      "id": 56,
+      "name": " Lenovo Vibe K5 Note (Gold, ..",
+      "image":"https://rukminim1.flixcart.com/image/300/300/mobile/g/4/7/lenovo-k5-note-pa330010in-original-imaekyazjhfqveze.jpeg?q=90 ",
+      "discription":"3 GB RAM | 32 GB ROM | Expandable Upto 128 GB",
+      "camera":"13MP Rear Camera | 8MP Front Camera",
+      "price":14900,
+      "category":"mobile"
+    },
+    {
+      "id": 57,
+      "name": "Lenovo Phab 2 (Champagne Go...",
+      "image":"https://rukminim1.flixcart.com/image/300/300/jnamvm80/mobile/u/8/y/lenovo-k9-padv0031cn-original-imafayegk6nxqtjr.jpeg?q=90 ",
+      "discription":"3 GB RAM | 32 GB ROM | Expandable Upto 128 GB",
+      "camera":"13MP Rear Camera | 5MP Front Camera",
+      "price":12900,
+      "category":"mobile"
+    },
+    {
+      "id": 58,
+      "name": "SONY Xperia E3 Dual (White,..",
+      "image":"https://rukminim1.flixcart.com/image/300/300/mobile/6/2/e/sony-xperia-e3-ds-original-imaeyymzgvqxjkw4.jpeg?q=90 ",
+      "discription":"1 GB RAM | 4 GB ROM | Expandable Upto 32 GB",
+      "camera":"5MP Rear Camera | 0.3MP Front Camera",
+      "price":10900,
+      "category":"mobile"
+    },
+    {
+      "id": 59,
+      "name": "SONY Xperia Z1 Compact (Whi...",
+      "image":"https://rukminim1.flixcart.com/image/300/300/mobile/j/v/c/sony-xperia-z1-compact-original-imadwjsknfwgbg3n.jpeg?q=90 ",
+      "discription":"2 GB RAM | 16 GB ROM | Expandable Upto 64 GB",
+      "camera":"20.7MP Rear Camera | 2MP Front Camera",
+      "price":9900,
+      "category":"mobile"
+    },
+    {
+      "id": 60,
+      "name": "SONY Xperia SP (Black, 8 GB",
+      "image":"https://rukminim1.flixcart.com/image/300/300/mobile/z/z/h/sony-xperia-sp-original-imadzartrhxxjnuz.jpeg?q=90 ",
+      "discription":"1 GB RAM | 8 GB ROM | Expandable Upto 32 GB.",
+      "camera":"8MP Rear Camera | 0.3MP Front Camera",
+      "price":9900,
+      "category":"mobile"
     }
   ]
   
