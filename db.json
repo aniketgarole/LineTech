@@ -1,0 +1,343 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "biscuits",
+      "image":"https://rukminim1.flixcart.com/image/280/280/krtjgcw0/cookie-biscuit/e/e/d/bourbon-sandwich-biscuits-britannia-original-imag5j4u3dggthky.jpeg?q=70",
+      "discription":"BRITANNIA Bourbon Biscuits Cream Sandwich",
+      "price":90,
+      "category":"grocery"
+    },
+    {
+      "id": 2,
+      "name": "biscuits",
+      "image":"https://rukminim1.flixcart.com/image/280/280/kwxv98w0/cookie-biscuit/y/2/7/-original-imag9hwyhvzcdbde.jpeg?q=70",
+      "discription":"UNIBIC Sugar Free Cashew Cookies",
+      "price":43,
+      "category":"grocery"
+    },
+    {
+      "id": 3,
+      "name": "biscuits",
+      "image":"https://rukminim1.flixcart.com/image/280/280/kzn17680/cookie-biscuit/f/q/e/-original-imagbhqycgf9hvxw.jpeg?q=70",
+      "discription":"Cadbury Oreo Chocolate Flavour Biscuit Cream Sandwich",
+      "price":97,
+      "category":"grocery"
+    },
+     {
+      "id": 4,
+      "name": "biscuits",
+      "image":"https://rukminim1.flixcart.com/image/280/280/xif0q/cookie-biscuit/h/d/x/-original-imagmty46nu5zjcr.jpeg?q=70",
+      "discription":"BRITANNIA Good Day Chocochip s Cookies",
+      "price":74,
+      "category":"grocery"
+    },
+    {
+      "id": 5,
+      "name": "ghee",
+      "image":"https://rukminim1.flixcart.com/image/280/280/ks4yz680/ghee/q/a/g/pure-cow-tetrapack-aashirvaad-original-imag5rszyqtzrzcf.jpeg?q=70",
+      "discription":"AASHIRVAAD Svasti Pure Cow Ghee 1 L Tetrapack",
+      "price":698,
+      "category":"grocery"
+    },
+    {
+      "id": 6,
+      "name": "ghee",
+      "image":"https://rukminim1.flixcart.com/image/280/280/k8xduvk0/ghee/9/d/x/1-cow-s-box-patanjali-original-imafqtrbya9z9bmz.jpeg?q=70",
+      "discription":"PATANJALI Cow's Ghee 1 L Box",
+      "price":631,
+      "category":"grocery"
+    },
+    {
+      "id": 7,
+      "name": "ghee",
+      "image":"https://rukminim1.flixcart.com/image/280/280/xif0q/ghee/6/p/x/-original-imagg2y3dcf9nfrk.jpeg?q=70",
+      "discription":"Ananda Ghee 900 ml Tetrapack",
+      "price":515,
+      "category":"grocery"
+    },
+    {
+      "id": 8,
+      "name": "ghee",
+      "image":"https://rukminim1.flixcart.com/image/280/280/kflftzk0/ghee/8/g/c/1-cow-tetrapack-chitale-bandhu-original-imafwyw63hzbrwqg.jpeg?q=70",
+      "discription":"Chitale Ghee 1 L Tetrapack",
+      "price":665,
+      "category":"grocery"
+    },
+    {
+      "id": 9,
+      "name": "atta",
+      "image":"https://rukminim1.flixcart.com/image/280/280/kohigsw0/flour/j/f/a/chakki-fresh-atta-whole-wheat-flour-pillsbury-original-imag2xggzcbnrchc.jpeg?q=70",
+      "discription":"Pillsbury Chakki Fresh Atta",
+      "price":240,
+      "category":"grocery"
+    },
+    {
+      "id": 10,
+      "name": "atta",
+      "image":"https://rukminim1.flixcart.com/image/280/280/l251xu80/flour/3/e/c/-original-imagdjznbs3chkgz.jpeg?q=70",
+      "discription":"AASHIRVAAD Natures Superfoods Multi Millet Mix",
+      "price":121,
+      "category":"grocery"
+    },
+    {
+      "id": 11,
+      "name": "atta",
+      "image":"https://rukminim1.flixcart.com/image/280/280/kqidx8w0/flour/h/s/p/chakki-fresh-atta-whole-wheat-flour-fortune-original-imag4gb3ggvam3fg.jpeg?q=70",
+      "discription":"Fortune Chakki Fresh Atta",
+      "price":440,
+      "category":"grocery"
+    },
+    {
+      "id": 12,
+      "name": "tea",
+      "image":"https://rukminim1.flixcart.com/image/280/280/l432ikw0/tea/w/u/p/-original-imagf25fvmjytwck.jpeg?q=70",
+      "discription":"Tetley Elaichi Black Tea Bags Box",
+      "price":254,
+      "category":"grocery"
+    },
+    {
+      "id": 13,
+      "name": "tea",
+      "image":"https://rukminim1.flixcart.com/image/280/280/l0lbrm80/tea/2/8/w/-original-imagcchnu5dfgntg.jpeg?q=70",
+      "discription":"Tata Agni Strong Leaf Black Tea Pouch",
+      "price":176,
+      "category":"grocery"
+    },
+    {
+      "id": 14,
+      "name": "tea",
+      "image":"https://rukminim1.flixcart.com/image/280/280/l4x2rgw0/tea/h/t/h/-original-imagfpjreambc9c8.jpeg?q=70",
+      "discription":"Taj Mahal Tea Box",
+      "price":218,
+      "category":"grocery"
+    },
+    {
+      "id": 15,
+      "name": "hair care",
+      "image":"https://rukminim1.flixcart.com/image/280/280/xif0q/shampoo/8/n/o/-original-imagjxkaxky8zwyh.jpeg?q=70",
+      "discription":"Kesh King Organic Onion Shampoo with Curry Leaves | Boosts Hair Growth",
+      "price":299,
+      "category":"grocery"
+    },
+    {
+      "id": 16,
+      "name": "hair care",
+      "image":"https://rukminim1.flixcart.com/image/280/280/kwjkuq80/shampoo/3/d/t/340-scalp-and-hair-medicine-anti-dandruff-shampoo-kesh-king-original-imag96sznfwdmz6a.jpeg?q=70",
+      "discription":"Kesh King Ayurvedic Anti-dandruff Shampoo|Dandruff Free Hair|Soothes itchy scalp",
+      "price":209,
+      "category":"grocery"
+    },
+    {
+      "id": 17,
+      "name": "hair care",
+      "image":"https://rukminim1.flixcart.com/image/280/280/kv6zvrk0/hair-oil/5/l/d/100-pure-coconut-oil-bajaj-original-imag85gv6fbskv7u.jpeg?q=70",
+      "discription":"BAJAJ 100% Pure Coconut Hair Oil",
+      "price":143,
+      "category":"grocery"
+    },
+    {
+      "id": 18,
+      "name": "rice",
+      "image":"https://rukminim1.flixcart.com/image/280/280/kqidx8w0/rice/r/p/x/white-everyday-na-basmati-rice-pouch-fortune-original-imag4gb4ynggnzgt.jpeg?q=70",
+      "discription":"Fortune Everyday Basmati Rice (Long Grain)",
+      "price":99,
+      "category":"grocery"
+    },
+    {
+      "id": 19,
+      "name": "rice",
+      "image":"https://rukminim1.flixcart.com/image/280/280/xif0q/rice/r/g/5/-original-imagn5beyz7cuxyb.jpeg?q=70",
+      "discription":"Daawat Pulav Basmati Rice (Long Grain)",
+      "price":144,
+      "category":"grocery"
+    },
+    {
+      "id": 20,
+      "name": "rice",
+      "image":"https://rukminim1.flixcart.com/image/280/280/xif0q/rice/z/r/i/-original-imagggh6dagwuvqa.jpeg?q=70",
+      "discription":"INDIA GATE Premium Basmati Rice (Long Grain, Raw)",
+      "price":547,
+      "category":"grocery"
+    },
+    {
+      "id": 21,
+      "name": "Topwear",
+      "image":"https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/d/9/6/xxl-mts-faceironman-xxl-icable-original-imagn4d36ekjkysw.jpeg?q=70",
+      "discription":"Men Printed Round Neck W",
+      "price":206,
+      "category":"fashion"
+    },
+    {
+      "id": 22,
+      "name": "Topwear",
+      "image":"https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/y/0/5/s-bmrhenful-z14-blive-original-imaghau6cw8g3gjy.jpeg?q=70",
+      "discription":"Men Solid Henley Neck Mar",
+      "price":276,
+      "category":"fashion"
+    },
+    {
+      "id": 23,
+      "name": "Topwear",
+      "image":"https://rukminim1.flixcart.com/image/612/612/xif0q/t-shirt/b/s/8/m-t410-bllafb-eyebogler-original-imagf6qcnavh29vv-bb.jpeg?q=70",
+      "discription":"Men Printed Hooded Neck Blue, Black T-Shirt",
+      "price":300,
+      "category":"fashion"
+    },
+    {
+      "id": 24,
+      "name": "jeans",
+      "image":"https://rukminim1.flixcart.com/image/612/612/jean/n/u/3/bmw-darklevis-ben-martin-32-original-imaedpc4zcgjadsv.jpeg?q=70",
+      "discription":"Men Regular Mid Rise Dark Blue Jeans",
+      "price":499,
+      "category":"fashion"
+    },
+    {
+      "id": 25,
+      "name": "jeans",
+      "image":"https://rukminim1.flixcart.com/image/612/612/xif0q/jean/5/p/m/32-mss22mjn203-metronaut-original-imagg6khrvwfxbey.jpeg?q=70",
+      "discription":"Men Slim Mid Rise Light Bl",
+      "price":643,
+      "category":"fashion"
+    },
+    {
+      "id": 26,
+      "name": "jeans",
+      "image":"https://rukminim1.flixcart.com/image/612/612/l4zxn680/jean/8/f/j/32-36087-0634-levi-s-original-imagfrr2qtzcezus.jpeg?q=70",
+      "discription":"512 Men Regular Mid Rise Blue Jeans",
+      "price":2000,
+      "category":"fashion"
+    },
+    {
+      "id": 27,
+      "name": "shirt",
+      "image":"https://rukminim1.flixcart.com/image/612/612/xif0q/shirt/a/r/j/xxl-r-stbrg-stoneberg-original-imagkdh6k9hggkbd.jpeg?q=70",
+      "discription":"Men Slim Fit Solid Spread Collar Formal Shirt",
+      "price":999,
+      "category":"fashion"
+    },
+    {
+      "id": 28,
+      "name": "shirt",
+      "image":"https://rukminim1.flixcart.com/image/612/612/kst9gnk0/shirt/c/c/h/l-frml-st2-vebnor-original-imag6apmjzyehu6p.jpeg?q=70",
+      "discription":"Men Regular Fit Solid Butto",
+      "price":399,
+      "category":"fashion"
+    },
+    {
+      "id": 29,
+      "name": "shirt",
+      "image":"https://rukminim1.flixcart.com/image/612/612/xif0q/shirt/1/h/u/xl-kcsh-fo-1647-ma-fubar-original-imagm99wsyzvqucn.jpeg?q=70",
+      "discription":"Men Slim Fit Solid Spread Collar Formal Shirt",
+      "price":599,
+      "category":"fashion"
+    },
+    {
+      "id": 30,
+      "name": "shoes",
+      "image":"https://rukminim1.flixcart.com/image/612/612/l432ikw0/shoe/a/c/l/-original-imagf255gsgwy7qr.jpeg?q=70",
+      "discription":"Dectron M Running Shoes F",
+      "price":2050,
+      "category":"fashion"
+    },
+    {
+      "id": 31,
+      "name": "shoes",
+      "image":"https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/d/o/e/9-5g-845-campus-mod-blu-wht-original-imag4g3xnanhz7zk-bb.jpeg?q=70",
+      "discription":"MIKE (N) Running Shoes Fo",
+      "price":956,
+      "category":"fashion"
+    },
+    {
+      "id": 32,
+      "name": "shoes",
+      "image":"https://rukminim1.flixcart.com/image/612/612/xif0q/shoe/k/p/4/6-express-10-6-asian-black-original-imaghzfpgnmmyugk.jpeg?q=70",
+      "discription":"WNDR-13 Pro Black Sports,",
+      "price":556,
+      "category":"fashion"
+    },
+    {
+      "id": 33,
+      "name": "deodorants",
+      "image":"https://rukminim1.flixcart.com/image/612/612/xif0q/deodorant/v/c/w/645-gold-and-dark-temptation-3-deodorant-spray-axe-men-original-imaghav2dygag4mv.jpeg?q=70",
+      "discription":"AXE Gold and Dark Temptation Deodorant Spray - For Me...,",
+      "price":499,
+      "category":"fashion"
+    },
+    {
+      "id": 34,
+      "name": "deodorants",
+      "image":"https://rukminim1.flixcart.com/image/612/612/kdnf98w0pkrrdj/personal-care/h/q/q/600-hamilton-prestige-and-caliber-combo-denver-original-imafug65uhxg7zk9.jpeg?q=70",
+      "discription":"DENVER Hamilton, Prestige and Caliber Combo Deodorant S...",
+      "price":599,
+      "category":"fashion"
+    },
+    {
+      "id": 35,
+      "name": "deodorants",
+      "image":"https://rukminim1.flixcart.com/image/612/612/xif0q/deodorant/4/m/s/300-rhuz-khos-halal-body-spray-long-lasting-no-alcohol-2-original-imagkb7wguj7vsqy.jpeg?q=70",
+      "discription":"LAFZ Rhuz Khos Halal Body Spray, Long Lasting No Alcoho...",
+      "price":199,
+      "category":"fashion"
+    },
+    {
+      "id": 36,
+      "name": "jackets",
+      "image":"https://rukminim1.flixcart.com/image/612/612/jtd98y80/jacket/4/c/r/xl-6832233-wrogn-original-imafeqh4xrjdv3cv.jpeg?q=70",
+      "discription":"Men Solid Bomber Jacket",
+      "price":2399,
+      "category":"fashion"
+    },
+    {
+      "id": 37,
+      "name": "jackets",
+      "image":"https://rukminim1.flixcart.com/image/612/612/xif0q/jacket/u/r/0/xl-no-19547346-wrogn-original-imagk7qgmrubamym.jpeg?q=70",
+      "discription":"Men Solid Biker/Riding Jacket",
+      "price":4399,
+      "category":"fashion"
+    },
+    {
+      "id": 38,
+      "name": "jackets",
+      "image":"https://rukminim1.flixcart.com/image/612/612/xif0q/jacket/v/t/a/s-1-no-ps-te-jacket-navy-blu-s-little-hub-original-imaggstrjbmxhqtj.jpeg?q=70",
+      "discription":"Men Solid Nehru Jacket",
+      "price":4399,
+      "category":"fashion"
+    },
+    {
+      "id": 39,
+      "name": "jackets",
+      "image":"https://rukminim1.flixcart.com/image/612/612/xif0q/jacket/i/w/e/m-no-kttmenspufferjacket31-kotty-original-imagkrp4x2dahnz8.jpeg?q=70",
+      "discription":"Men Solid Puffer Jacket",
+      "price":4399,
+      "category":"fashion"
+    },
+    {
+      "id": 40,
+      "name": "jackets",
+      "image":"https://rukminim1.flixcart.com/image/612/612/xif0q/jacket/c/u/f/m-mnt-7024-montrez-original-imag5hb9hqcc4qyy-bb.jpeg?q=70",
+      "discription":"Men Washed Casual Jacket",
+      "price":1399,
+      "category":"fashion"
+    },
+    {
+      "id": 41,
+      "name": "POCO C50 (Country Green, 32)",
+      "image":"https://rukminim1.flixcart.com/image/300/300/xif0q/mobile/3/l/x/-original-imaghmtcmxwgypsk.jpeg?q=90",
+      "discription":"2 GB RAM | 32 GB ROM | Expandable Upto 512 GB 16.56 cm (6.52 inch) HD+ Display",
+      "camera":"8MP Dual Camera | 5MP Front Camera",
+      "price":6399,
+      "category":"mobile"
+    },
+    {
+      "id": 42,
+      "name": "realme C30 (Bamboo Green, 32 GB)  (3 GB RAM)",
+      "image":"https://rukminim1.flixcart.com/image/300/300/xif0q/mobile/3/l/x/-original-imaghmtcmxwgypsk.jpeg?q=90",
+      "discription":"3 GB RAM | 32 GB ROM | Expandable Upto 1 TB",
+      "camera":"8MP Dual Camera | 5MP Front Camera",
+      "price":6399,
+      "category":"mobile"
+    }
+  ]
+  
+}
