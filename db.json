@@ -490,6 +490,166 @@
       "camera":"8MP Rear Camera | 0.3MP Front Camera",
       "price":9900,
       "category":"mobile"
+    },
+    {
+      "id": 61,
+      "name": "FURNITUR",
+      "image":"https://rukminim1.flixcart.com/image/612/612/l1b1oy80/rocking-chair/l/e/0/1092-1-seater-610-rosewood-sheesham-20-fh-rc-25-brown-original-imagcwh9pfjgzgfh.jpeg?q=70",
+      "discription":"FURNITUREHUB Living Room/Garden-Rosewood Finishing for ..",
+      "price":10500,
+      "category":"home"
+    },
+    {
+      "id": 62,
+      "name": "FURNITUR",
+      "image":"https://rukminim1.flixcart.com/image/612/612/kwqq1zk0/rocking-chair/s/n/f/580-1-seater-580-rosewood-sheesham-20-rocking-chair-for-garden-original-imag9cz4bfmf2hz4.jpeg?q=70",
+      "discription":"FURNITUREHUB Wooden Rocking Chair | Recliner for Adults..",
+      "price":14500,
+      "category":"home"
+    },
+    {
+      "id": 63,
+      "name": "FURNITUR",
+      "image":"https://rukminim1.flixcart.com/image/612/612/kkwwu4w0/rocking-chair/9/n/g/1-seater-rosewood-sheesham-scfur-64-brown-artesia-brown-original-imagy5fethexmkjb.jpeg?q=70",
+      "discription":"Artesia Rosewood Rocking Chair For Living Room / Garden",
+      "price":12500,
+      "category":"home"
+    },
+    {
+      "id": 64,
+      "name": "Mattresses",
+      "image":"https://rukminim1.flixcart.com/image/612/612/ki3gknk0-0/bed-mattress/y/z/a/single-5-35-78-super-sq-single-bed-epe-foam-colofly-original-imafxyyxbzsfsxwq.jpeg?q=70",
+      "discription":"COLOFLY SUPER, SQ Queen Bed 4 inch Queen EPE Foam Mattr",
+      "price":2500,
+      "category":"home"
+    },
+    {
+      "id": 65,
+      "name": "Mattresses",
+      "image":"https://rukminim1.flixcart.com/image/612/612/kulk9zk0/bed-mattress/w/2/p/normal-top-king-4-soft-bounce-3-folding-travel-mattress-high-original-imag7zfj5jzbfxwg.jpeg?q=70",
+      "discription":"MOROFEEL Soft Bounce 3 Folding/Travel Mattress 4 inch Q",
+      "price":4500,
+      "category":"home"
+    },
+    {
+      "id": 66,
+      "name": "Mattresses",
+      "image":"https://rukminim1.flixcart.com/image/612/612/xif0q/bed-mattress/u/3/f/normal-top-double-8-48-78-ortho-plus-with-curved-foam-high-original-imaghjp5gmrmeprv.jpeg?q=70",
+      "discription":"Livpure Smart Ortho-Plus with curved foam 6 inch Queen",
+      "price":6500,
+      "category":"home"
+    },
+    {
+      "id": 67,
+      "name": "Mattresses",
+      "image":"https://rukminim1.flixcart.com/image/612/612/xif0q/bed-mattress/0/j/c/normal-top-double-5-48-78-dual-medium-soft-hard-high-density-hd-original-imaghugdm8rgtahy.jpeg?q=70",
+      "discription":"SleepX Dual Medium Soft & Hard 6 inch Queen High Densit.",
+      "price":9500,
+      "category":"home"
+    },
+    {
+      "id": 68,
+      "name": "Wardrobes",
+      "image":"https://rukminim1.flixcart.com/image/612/612/kfr5le80/cupboard-almirah/b/7/w/carbon-steel-ialas2dwrbbrn-whi-nilkamal-brown-white-original-imafw4qjn8wgkrfw.jpeg?q=70",
+      "discription":"Nilkamal Alaska Metal Almirah",
+      "price":25500,
+      "category":"home"
+    },
+    {
+      "id": 69,
+      "name": "Wardrobes",
+      "image":"https://rukminim1.flixcart.com/image/612/612/xif0q/cupboard-almirah/n/f/b/no-stainless-steel-30161803sd01017-blue-godrej-interio-denim-original-imagjfd7d4ckbs76.jpeg?q=70",
+      "discription":"Godrej Interio Neolite Metal Almirah",
+      "price":21500,
+      "category":"home"
+    },
+    {
+      "id": 70,
+      "name": "Wardrobes",
+      "image":"https://rukminim1.flixcart.com/image/612/612/juh9ksw0/cupboard-almirah/u/3/q/stainless-steel-slimline-3-door-wardrobe-with-locker-godrej-original-imaffhh6qykbpp9w.jpeg?q=70",
+      "discription":"Godrej Interio Slimline 3 Door With Locker Metal Almira",
+      "price":31500,
+      "category":"home"
+    },
+    {
+      "id": 71,
+      "name": "Shoe RacksShoe Racks",
+      "image":"https://rukminim1.flixcart.com/image/612/612/kph8h3k0/shoe-rack/4/v/x/shoe-stand-storage-utility-organizer-chappal-stand-foldable-shoe-original-imag3pcuehwbfxbx.jpeg?q=70",
+      "discription":"Philoshop Metal Collapsible Shoe Stand",
+      "price":1500,
+      "category":"home"
+    },
+    {
+      "id": 72,
+      "name": "Shoe RacksShoe Racks",
+      "image":"https://rukminim1.flixcart.com/image/612/612/xif0q/shoe-rack/o/f/t/plastic-double-10-layer-white-for-home-and-kids-shoe-stand-original-imagmxgg2fvtx9gz.jpeg?q=70",
+      "discription":"Sasimo 5 Door 10 Shelf Plastic Metal Plastic Collapsibl.",
+      "price":2700,
+      "category":"home"
+    },
+    {
+      "id": 73,
+      "name": "Shoe RacksShoe Racks",
+      "image":"https://rukminim1.flixcart.com/image/612/612/xif0q/shoe-rack/v/n/n/plastic-black-shoe-rack-with-cover-for-home-office-wardrobe-cube-original-imaggwy4fthusznb.jpeg?q=70",
+      "discription":"Sasimo 4-Shelf-2-Door Plastic Cubort Shoe Rack Plastic ",
+      "price":1700,
+      "category":"home"
+    },
+    {
+      "id": 74,
+      "name": "Shoe RacksShoe Racks",
+      "image":"https://rukminim1.flixcart.com/image/612/612/kzllrbk0/shoe-rack/k/l/3/40-61-25-srad001-caspian-brown-84-original-imagbktffd4aedgd.jpeg?q=70",
+      "discription":"CASPIAN Wooden with Fixed Shelves Engineered Wood Shoe ... ",
+      "price":4300,
+      "category":"home"
+    },
+    {
+      "id": 75,
+      "name": "Shoe RacksShoe Racks",
+      "image":"https://rukminim1.flixcart.com/image/612/612/xif0q/shoe-rack/v/a/i/-original-imaggfwhmjhyvwjm.jpeg?q=70",
+      "discription":"Delite Kom 20 Inches wide Four Door Powder Coated Wall . ",
+      "price":12300,
+      "category":"home"
+    },
+    {
+      "id": 76,
+      "name": "Home Decor",
+      "image":"https://rukminim1.flixcart.com/image/612/612/kkprmvk0/key-holder/g/c/l/br2pocket-penholder-heritagecrafts-original-imagyycjgmaehgrq.jpeg?q=70",
+      "discription":"Heritagecrafts Unique Wooden 2 Pocket Pen Stand 8 Hook ",
+      "price":140,
+      "category":"home"
+    },
+    {
+      "id": 77,
+      "name": "Home Decor",
+      "image":"https://rukminim1.flixcart.com/image/612/612/k12go7k0/sticker/w/y/e/wall-stickers-wallpaper-happy-winter-trees-and-frames-home-diy-original-imafknv4vc3xf4wm.jpeg?q=70",
+      "discription":"Flipkart SmartBuy 500 cm Wall Stickers Wallpaper Happy ",
+      "price":190,
+      "category":"home"
+    },
+    {
+      "id": 78,
+      "name": "Home Decor",
+      "image":"https://rukminim1.flixcart.com/image/612/612/kjabs7k0-0/wall-clock/a/g/e/handpainted-peacock-wall-clock-wc-331-analog-divinecrafts-original-imafyvmxgyhdyefg.jpeg?q=70",
+      "discription":"DivineCrafts Analog 32.5 cm X 32.5 cm Wall Clock",
+      "price":340,
+      "category":"home"
+    },
+    {
+      "id": 79,
+      "name": "Home Decor",
+      "image":"https://rukminim1.flixcart.com/image/612/612/k0wqwsw0/wall-clock/q/h/f/analog-ajanta397white-analog-ajanta-original-imafkhkesmgavwxa.jpeg?q=70",
+      "discription":"AJANTA Analog 32 cm X 32 cm Wall Clock",
+      "price":440,
+      "category":"home"
+    },
+    {
+      "id": 80,
+      "name": "Home Decor",
+      "image":"https://rukminim1.flixcart.com/image/612/612/ktn9pjk0/painting/w/h/d/18-3-sanfjm32427-saf-original-imag6y75zcmheccy.jpeg?q=70",
+      "discription":"saf Digital Reprint 18 inch x 12 inch Painting",
+      "price":140,
+      "category":"home"
     }
   ]
   
