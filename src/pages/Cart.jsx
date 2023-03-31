@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import { SmallCloseIcon } from '@chakra-ui/icons'
-import "./Cart1.css"
+import "../styles/Cart.css";
 
 import {
   Button,
@@ -15,7 +15,7 @@ import {
   Text,
   useColorModeValue as mode,
 } from '@chakra-ui/react'
-import { FaArrowRight } from 'react-icons/fa';
+
 
 
 
@@ -25,7 +25,7 @@ const getData = async () => {
   return res.data
 }
 
-const Cart = () => {
+const Cart = ({updateData}) => {
   const [data, setData] = useState([])
 const [update, setUpdate] = useState(false)
 
@@ -34,6 +34,7 @@ const [update, setUpdate] = useState(false)
       .then((res) => {
         console.log(res);
         setData(res)
+        updateData();
       })
       .catch((err) => {
         console.log(err);
@@ -175,7 +176,9 @@ const [update, setUpdate] = useState(false)
               </Text>
             </Flex>
           </Stack>
-          <Button className='checkout' colorScheme="red" size="lg" fontSize="md" rightIcon={<FaArrowRight />}>
+          <Button className='checkout' colorScheme="red" size="lg" fontSize="md" 
+        
+          >
             CHECKOUT
           </Button> 
         </Stack>
