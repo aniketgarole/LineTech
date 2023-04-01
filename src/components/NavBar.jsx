@@ -7,6 +7,7 @@ import wish from "../image/heart-regular-24.png"
 import cart from "../image/cart-alt-solid-24.png"
 import search from "../image/search-regular-24.png"
 import { Link } from "react-router-dom";
+import HomePage from "../pages/HomePage";
 
 const NavBar = () => {
   return (
@@ -46,14 +47,21 @@ const NavBar = () => {
           
         </div>
       </div>
-      <div className="maroon-div">
+      <div className="maroon-div" style={{textDecoration:"none"}} >
+        <Link to="/"><div >HOME</div></Link>
+      
+      <Link  to="/grocery" >GROCERY</Link>
+      <Link to="/mobile">MOBLILE</Link>
+      <Link to="/fashion">FASHION</Link>
+      <Link to="/homeappliances">HOME APPLANCES</Link>
+        
 
-        <div>Stores Near Me</div>
+        {/* <div>Stores Near Me</div>
         <div>Prouducts Near Me</div>
         <div>Fashion</div>
         <div>Beauty & Personal Care</div>
         <div>Home Decor</div>
-        <div>Electronics</div>
+        <div>Electronics</div> */}
         
               {/* <div>
                 <Link to="#">Stores Near Me</Link>
