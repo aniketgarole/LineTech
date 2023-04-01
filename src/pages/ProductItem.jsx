@@ -1,17 +1,19 @@
 import React from 'react'
 import ProductCart from './ProductCart'
+import { SimpleGrid } from '@chakra-ui/react'
 
 const ProductItem = ({grocerydata}) => {
     console.log(grocerydata)
 
   return (
-    <div style={{display:"grid", gridTemplateColumns:"repeat(4,1fr)" ,width:"85%", gap:"10px"}}>
+    
+      <SimpleGrid columns={{base:2,md:4}} spacing={10}>
         {
         grocerydata.map((el)=><ProductCart key={el.id} {...el}/>)
         }
+      </SimpleGrid>  
 
-
-    </div>
+   
   )
 }
 
