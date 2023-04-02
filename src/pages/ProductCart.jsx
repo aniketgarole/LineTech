@@ -9,6 +9,7 @@ const ProductCart = ({id,name,image,discription,category,price}) => {
       src={image}
       alt='Green double couch with wooden legs'
       borderRadius='lg'
+      boxSize='200px'
     />
     <Stack mt='6' spacing='3'>
       
