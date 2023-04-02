@@ -7,8 +7,14 @@ import wish from "../image/heart-regular-24.png"
 import cart from "../image/cart-alt-solid-24.png"
 import search from "../image/search-regular-24.png"
 import { Link } from "react-router-dom";
+import { BasicUsage } from "./Modal";
+
+
+
 
 const NavBar = () => {
+
+  
   return (
     <DIV>
       <div className="top-div">
@@ -30,50 +36,52 @@ const NavBar = () => {
                 <span>Pune, Pune</span>
             </div>
             <div className="user-wish">
-                <div>
+                <div className="user-log">
                     <img src={`${user}`} alt="" className="wid-logo"/>
-                    <span>Sign In/Register</span>
+                    {/* <span>Sign In/Register</span> */}
+                    <BasicUsage/>
+                    
                 </div>
-                <div>
+                <div className="u-wish">
                     <img src={`${wish}`} alt="" className="wid-logo"/>
                       <span>Wishlist</span>
                 </div>
             </div>
             <div className="user-cart">
                 <img src={`${cart}`} alt="" className="wid-logo"/>
-                <span>Cart</span>
+                <span><Link to="#" style={{ textDecoration: 'none', color: "black"}}>Cart</Link></span>
             </div>
           
         </div>
       </div>
       <div className="maroon-div">
 
-        <div>Stores Near Me</div>
+        {/* <div>Stores Near Me</div>
         <div>Prouducts Near Me</div>
         <div>Fashion</div>
         <div>Beauty & Personal Care</div>
         <div>Home Decor</div>
-        <div>Electronics</div>
+        <div>Electronics</div> */}
         
-              {/* <div>
-                <Link to="#">Stores Near Me</Link>
+              <div>
+                <Link to="#" style={{ textDecoration: 'none', color: "#FFFFFF"}}>Stores Near Me</Link>
               </div>
               <div>
-                <Link to="#">Prouducts Near Me</Link>
+                <Link to="#" style={{ textDecoration: 'none', color: "#FFFFFF" }}>Prouducts Near Me</Link>
               </div>
               <div>
-                <Link to="#">Fashion</Link>
+                <Link to="#" style={{ textDecoration: 'none', color: "#FFFFFF" }}>Fashion</Link>
               </div>
               <div>
-                <Link to="#">Beauty & Personal Care</Link>
+                <Link to="#" style={{ textDecoration: 'none', color: "#FFFFFF" }}>Beauty & Personal Care</Link>
               </div>
               <div>
-                <Link to="#">Home Decor</Link>
+                <Link to="#" style={{ textDecoration: 'none', color: "#FFFFFF" }}>Home Decor</Link>
               </div>
               <div>
-                <Link to="#">Electronics</Link>
+                <Link to="#" style={{ textDecoration: 'none', color: "#FFFFFF" }}>Electronics</Link>
               </div>
-        */}
+       
               
       </div>
     </DIV>
@@ -90,6 +98,10 @@ const DIV = styled.div`
   
   @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Mulish:wght@700&display=swap');
 
+ 
+  @import url('https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&family=Merriweather:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400;1,500&display=swap');
+
+
 
 
   width: 100%;
@@ -99,12 +111,12 @@ const DIV = styled.div`
   .top-div {
     border: 1px solid black;
     width: 100%;
-
+    text-align: center;
     padding: 4px 0 25px 0;
   }
 
   .offer-span {
-    font-family: Mulish;
+    font-family: Muli;
     font-size: 15px;
     font-weight: 700;
     letter-spacing: 2px;
@@ -114,7 +126,7 @@ const DIV = styled.div`
   }
 
   .search-div {
-    border: 1px solid blue;
+    
     display: flex;
     justify-content: left;
     align-items: center;
@@ -128,7 +140,7 @@ const DIV = styled.div`
   }
 
   .input-div {
-    border: 1px solid red;
+    
     display:flex;
     justify-content: left;
     width: 440px;
@@ -155,6 +167,12 @@ const DIV = styled.div`
         width: 393px;
         margin: 0 0 10px 5px;
         font-family: Montserrat reguluar;
+        border: none;
+        border-style: none;
+  }
+
+  .input-div input:focus{
+    outline:none;
   }
 
   .input-div img {
@@ -165,7 +183,7 @@ const DIV = styled.div`
   
 
   .search-right{
-    border: 1px solid red;
+    
     display: flex;
     width: 50%;
     height: px;
@@ -173,14 +191,15 @@ const DIV = styled.div`
     margin-left: 20px;
     text-align: center;
     
-    
+    font-family: Merriweather;
+    font-size: 14px;
     
   }
 
  
 
   .user-wish{
-    border: 1px solid blue;
+    
     
     display:flex;
     width: 32%;
@@ -198,24 +217,24 @@ const DIV = styled.div`
   }
 
   .user-location span{
-    color: red;
+    cursor:pointer;
     margin-bottom: 40px;
     
   }
 
   .user-location{
-    border: 1px solid blue;
+    
+    padding-bottom: 4px;
   }
 
   .user-location img{
     margin-top: 8px;
-    border: 1px solid red;
-    
+        
   }
 
   .user-location span{
-    border: 1px solid green;
-    margin: 8px;
+   
+    margin-bottom: 16px;
   }
 
   .input-div img{
@@ -225,12 +244,12 @@ const DIV = styled.div`
 
   .user-cart {
     margin-right: 30px;
-    
+    cursor: pointer;
   }
 
 
   .maroon-div{
-    border: 1px solid blue;
+    
     width: 100%;
     height: 54px;
     display: flex;
@@ -240,12 +259,37 @@ const DIV = styled.div`
     gap: 20px;
     font-family: Merriweather;
     font-weight: 600;
-    font-size: 19px;
+    font-size: 16px;
     line-height: 28px;
     background-color: rgb(144,39,53);
     color: #FFFFFF;
+    text-decoration: none;
   }
 
+  Link{
+    text-decoration: none;
+  }
+
+  .maroon-div div:hover{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    height: 100%;
+    
+    
+    background-color: rgb(249, 248, 248);
+    color: rgb(144,39,53);
+    text-align: center;
+  }
+
+
+
+
+
+  .user-log, .u-wish{
+    cursor: pointer;
+  }
  
  
 `;
