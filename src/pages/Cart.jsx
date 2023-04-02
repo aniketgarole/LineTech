@@ -3,6 +3,7 @@ import axios from 'axios';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import { SmallCloseIcon } from '@chakra-ui/icons'
+import { Link } from 'react-router-dom';
 import "../styles/Cart.css";
 
 import {
@@ -10,7 +11,7 @@ import {
   Flex,
   Image,
   Heading,
-  Link,
+
   Stack,
   Text,
   useColorModeValue as mode,
@@ -96,6 +97,7 @@ const [update, setUpdate] = useState(false)
   const totalPrice = data.reduce((acc, item) => acc + item.price * item.quantity, 0);
 
 
+  localStorage.setItem("totalPrice", totalPrice)
 
   return (
 
@@ -123,6 +125,8 @@ const [update, setUpdate] = useState(false)
                     <Image className='image'
                       src={el.image}
                       alt='Dan Abramov'
+                      ml={"5px"}
+                      h={"100px"}
                     />
                     <Text as="b">{el.name}</Text>
                   </Box>
@@ -163,9 +167,9 @@ const [update, setUpdate] = useState(false)
               </Link>
             </OrderSummaryItem>
             <OrderSummaryItem label="Coupon Code">
-              <Link href="#" textDecor="underline">
+              <Text href="#" textDecor="underline">
                 Add coupon code
-              </Link>
+              </Text>
             </OrderSummaryItem>
             <Flex justify="space-between">
               <Text fontSize="lg" fontWeight="semibold">
@@ -185,10 +189,12 @@ const [update, setUpdate] = useState(false)
         <Box>
             OR
           </Box>
+          <Link to="/#">
          <Text className='continue' as="b" color="blue">
          Conitunue Shopping
 
           </Text> 
+          </Link>
       </Box>
 
     </Flex>
