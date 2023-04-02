@@ -1,5 +1,14 @@
 import React from 'react'
+import Slider from 'react-slick'
 import styled from 'styled-components'
+import Slider1 from '../components/Slider1'
+import Imagecarousel from '../components/Imagecarousel'
+import BigSlider from '../components/BigSlider'
+import BlackDiv from '../components/BlackDiv'
+import FourDiv from '../components/FourDiv'
+import Footer from '../components/Footer'
+
+
 // import styles from "../styles/HomePage.module.css"
 
 
@@ -7,12 +16,41 @@ import styled from 'styled-components'
 const HomePage = () => {
   return (
     <div >
-        <div className='hori-lines' style={{border: "1px solid blue", paddingTop: "22px", paddingBottom: "5px", display: "flex", textAlign: "center",  }}>
+        <div className='hori-lines' style={{ paddingTop: "22px", paddingBottom: "5px", display: "flex", textAlign: "center",  }}>
           <hr style={{borderStyle:"inset", width:"40%", height: "10px", borderTop:"none", borderRight:"none", borderLeft:"none", borderBottom:"1px dotted gray", marginTop: "15px"}}/>
           <span style={{fontFamily: "Poppins", fontSize: "30px",letterSpacing:"1.8px"}}>Stores Near Me</span>
           <hr style={{borderStyle:"inset", width:"40%", height: "10px", borderTop:"none", borderRight:"none", borderLeft:"none", borderBottom:"1px dotted gray", marginTop: "15px"}}/>
           
         </div>
+
+        <br />
+        
+
+        <Slider1/>
+
+        <br />
+        <br />
+
+        <div className='hori-lines' style={{paddingTop: "22px", paddingBottom: "5px", display: "flex", textAlign: "center",  }}>
+          <hr style={{borderStyle:"inset", width:"40%", height: "10px", borderTop:"none", borderRight:"none", borderLeft:"none", borderBottom:"1px dotted gray", marginTop: "15px"}}/>
+          <span style={{fontFamily: "Poppins", fontSize: "22px",letterSpacing:"1.8px"}}>Shop By Category</span>
+          <hr style={{borderStyle:"inset", width:"40%", height: "10px", borderTop:"none", borderRight:"none", borderLeft:"none", borderBottom:"1px dotted gray", marginTop: "15px"}}/>
+          
+        </div>
+        
+
+       <Imagecarousel/>
+
+       
+       <BigSlider/>
+
+       <BlackDiv/>
+
+       <FourDiv/>
+
+       <Footer/>
+
+       
     </div>
   )
 }
