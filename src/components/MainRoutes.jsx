@@ -27,7 +27,7 @@ const MainRoutes = () => {
     <Route path="/deleteProduct" element={<DeleteProduct/>}></Route>
     <Route path="/cart" element={<BasketCartRoute/>}></Route>
     <Route path="/payment" element={<Payment/>}></Route>
-    {/* <Route path="/test" element= {<PrivateRoutes><h1>hi there</h1></PrivateRoutes>}></Route> */}
+    <Route path="/test" element= {<PrivateRoutes><h1>hi there</h1></PrivateRoutes>}></Route>
 
     <Route path="*" element={<h1>Sorry, Page not found</h1>}></Route>
     
