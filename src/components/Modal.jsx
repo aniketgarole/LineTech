@@ -17,21 +17,39 @@ import {
 } from '@chakra-ui/react'
 
 
+
+
 import box from "../image/craft-box.png";
 import tag from "../image/craft-tag.png"
 import basket from "../image/craft-basket.png"
 import logo from "../image/Futuristic_Modern_Black_and_White_Logo.png"
 
-
+import { useDispatch, useSelector } from "react-redux";
 
 import styles from "../styles/Modal.css"
 import { useState } from 'react';
+import { getAuth } from '../Redux/authReducer/action';
 
 export function BasicUsage() {
   const { isOpen, onOpen, onClose } = useDisclosure()
 
   const [state1, setState1] = useState("none")
   const [state2, setState2] = useState("block")
+
+  // const [isLogin, setLogin] = useState(false);
+
+  const dispatch = useDispatch()
+
+  const auth = useSelector(store => store.authReducer.isAuth)
+
+  console.log(auth)
+
+  const handleLogin = () => {
+    dispatch(getAuth)
+    // setLogin(true);
+    onClose()
+    
+  }
 
   const changeStatus = () => {
     state1 === "none" ? setState1("block") : setState1("none")
@@ -110,7 +128,7 @@ export function BasicUsage() {
               <p>Please provide your Password</p>
               <Input placeholder='Enter Password'></Input>
               
-              <button style={{display:state2}}>Sign In</button>
+              <button style={{display:state2}} onClick={handleLogin}>Sign In</button>
               <button style={{display:state1}}>Register</button>
               <br />
               <span className='signup-span' onClick={changeStatus}  style={{display:state2}}>New User? Sign Up</span>

@@ -12,7 +12,7 @@ const BigSlider = () => {
     const btnNext = ()=> {
         let width = ref.current.clientWidth;
         ref.current.scrollLeft = ref.current.scrollLeft + width+20;
-        console.log(width)
+        // console.log(width)
 
     }
 
@@ -27,7 +27,9 @@ const BigSlider = () => {
             btnNext()
         }, 4000);
 
-        
+        return ()=> {
+            clearInterval(id)
+        }
     },[])
 
 
