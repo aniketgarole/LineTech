@@ -7,6 +7,7 @@ import BigSlider from '../components/BigSlider'
 import BlackDiv from '../components/BlackDiv'
 import FourDiv from '../components/FourDiv'
 import Footer from '../components/Footer'
+import NavBar from '../components/NavBar'
 
 
 // import styles from "../styles/HomePage.module.css"
@@ -16,6 +17,7 @@ import Footer from '../components/Footer'
 const HomePage = () => {
   return (
     <div >
+      <NavBar/>
         <div className='hori-lines' style={{ paddingTop: "22px", paddingBottom: "5px", display: "flex", textAlign: "center",  }}>
           <hr style={{borderStyle:"inset", width:"40%", height: "10px", borderTop:"none", borderRight:"none", borderLeft:"none", borderBottom:"1px dotted gray", marginTop: "15px"}}/>
           <span style={{fontFamily: "Poppins", fontSize: "30px",letterSpacing:"1.8px"}}>Stores Near Me</span>
