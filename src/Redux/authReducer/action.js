@@ -15,17 +15,11 @@ const authFailure = () => {
 
 
 
-const getUsers = async() => {
+export const getAuth = () => {
 
-    let res = await axios.get(``)
-
-    let users = res.data;
-
-   let flag = false;
-
-   for (let i = 0; i < users.length; i++) {
-    if (email === users[i].email && password === users[i].password) {
-        flag = true;
-    }
-   }
+    
+    console.log("getAuth")
+    authSuccess()
+    
+   
 }

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import styled from "styled-components";
 import logo from "../image/Futuristic_Modern_Black_and_White_Logo.png";
 import map from "../image/map-solid-24.png";
@@ -6,13 +6,21 @@ import user from "../image/user-solid-24.png"
 import wish from "../image/heart-regular-24.png"
 import cart from "../image/cart-alt-solid-24.png"
 import search from "../image/search-regular-24.png"
-import { Link } from "react-router-dom";
+import { Link, Navigate, useNavigate } from "react-router-dom";
 import { BasicUsage } from "./Modal";
 
 
 
 
 const NavBar = () => {
+
+  const navigate = useNavigate()
+
+  const goHome = () => {
+    console.log("clicked")
+    navigate("/")
+  }
+
 
   
   return (
@@ -22,7 +30,7 @@ const NavBar = () => {
       </div>
       <div className="search-div">
         <div>
-          <img src={`${logo}`} alt="" className="logo-img" />
+          <img src={`${logo}`} alt="" className="logo-img" onClick={goHome}/>
         </div>
 
         <div className="input-div">
@@ -49,7 +57,8 @@ const NavBar = () => {
             </div>
             <div className="user-cart">
                 <img src={`${cart}`} alt="" className="wid-logo"/>
-                <span><Link to="#" style={{ textDecoration: 'none', color: "black"}}>Cart</Link></span>
+                {/* <Link></Link> */}
+                <span><Link to="/cart" style={{ textDecoration: 'none', color: "black"}}>Cart</Link></span>
             </div>
           
         </div>
@@ -64,23 +73,23 @@ const NavBar = () => {
         <div>Electronics</div> */}
         
               <div>
-                <Link to="#" style={{ textDecoration: 'none', color: "#FFFFFF"}}>Stores Near Me</Link>
+                <Link to="/grocery" style={{ textDecoration: 'none', color: "#FFFFFF"}}>Grocery</Link>
               </div>
               <div>
-                <Link to="#" style={{ textDecoration: 'none', color: "#FFFFFF" }}>Prouducts Near Me</Link>
+                <Link to="/fashion" style={{ textDecoration: 'none', color: "#FFFFFF" }}>Fashion</Link>
               </div>
               <div>
-                <Link to="#" style={{ textDecoration: 'none', color: "#FFFFFF" }}>Fashion</Link>
+                <Link to="/mobile" style={{ textDecoration: 'none', color: "#FFFFFF" }}>Mobile</Link>
               </div>
               <div>
-                <Link to="#" style={{ textDecoration: 'none', color: "#FFFFFF" }}>Beauty & Personal Care</Link>
+                <Link to="/homeapp" style={{ textDecoration: 'none', color: "#FFFFFF" }}>Home Appliance</Link>
               </div>
-              <div>
+              {/* <div>
                 <Link to="#" style={{ textDecoration: 'none', color: "#FFFFFF" }}>Home Decor</Link>
               </div>
               <div>
                 <Link to="#" style={{ textDecoration: 'none', color: "#FFFFFF" }}>Electronics</Link>
-              </div>
+              </div> */}
        
               
       </div>
