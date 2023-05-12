@@ -139,7 +139,7 @@ const DIV = styled.div`
     display: flex;
     justify-content: left;
     align-items: center;
-    padding: 10px 0;
+    padding: 10px 10px;
   }
 
   .logo-img {
@@ -214,37 +214,29 @@ const DIV = styled.div`
     width: 32%;
     justify-content: space-around;
     gap: 7px;
-    margin-left: 180px;
+    margin-left: 8%;
   }
 
   .wid-logo{
     width: 20px;
     height: 20px;
     margin-right: 8px;
-    margin-top: 4px;
+   
     
   }
 
-  .user-location span{
-    cursor:pointer;
-    margin-bottom: 40px;
-    
-  }
+  
 
   .user-location{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     
-    padding-bottom: 4px;
+    
   }
 
-  .user-location img{
-    margin-top: 8px;
-        
-  }
-
-  .user-location span{
-   
-    margin-bottom: 16px;
-  }
+  
+  
 
   .input-div img{
     width: 17px;
@@ -252,6 +244,9 @@ const DIV = styled.div`
   }
 
   .user-cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     margin-right: 30px;
     cursor: pointer;
   }
@@ -296,8 +291,22 @@ const DIV = styled.div`
 
 
 
-  .user-log, .u-wish{
+  .user-log{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     cursor: pointer;
+    width: 700px;
+    
+    height: auto;
+  }
+
+  .u-wish{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    
   }
  
  
