@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import {useSearchParams,useLocation,useParams} from "react-router-dom"
+import './Sidebar.css'
 const Sidebar = ({data}) => {
   const [search,setsearch]=useSearchParams()
    let inital=search.getAll("name")
@@ -38,19 +39,22 @@ useEffect(()=>{
     <div style={{width:"15%",borderRight:"1px solid black", marginLeft:"10px"}}>
         <h3>Filter by</h3>
         {
-             data.map((el)=> <div>
+             data.map((el)=> <div className='filMainBox'>
                 <input type="checkbox" value={el} onChange={handelvalue} checked={filtervalue.includes(el)} />
                 <label htmlFor="">{el}</label>
              </div>)
 
         }
        <h3 style={{marginTop:"10px",marginBottom:"10px"}}>Sort by price</h3>
-        <div onChange={handelsort}>
+        <div onChange={handelsort} className='filBox'>
+          <div className='soBox1'>
             <input type="radio" value={"asc"} name="price" checked={order=="asc"}/>
-            <label htmlFor="">Asending</label>
+            <label htmlFor="" className='ass'>Asending</label>
+          </div>
+          <div className='soBox1'>
             <input type="radio"value={"desc"}  name="price" checked={order=="desc"}/>
             <label htmlFor="">Desending</label>
-
+            </div>
         </div>
        
 

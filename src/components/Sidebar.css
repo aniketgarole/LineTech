@@ -1,0 +1,18 @@
+.filMainBox{
+    /* border: 1px solid red; */
+    text-align: start;
+    width: 50%;
+    margin: auto;
+}
+.filMainBox label{
+    padding-left: 5px;
+}
+.soBox1{
+    /* border: 1px solid red; */
+    text-align: start;
+    width: 50%;
+    margin: auto;
+}
+.soBox1 label{
+    padding-left: 5px;
+}
