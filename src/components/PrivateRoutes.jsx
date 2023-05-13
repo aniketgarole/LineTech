@@ -5,7 +5,13 @@ import { Navigate, useNavigate } from 'react-router-dom'
 const PrivateRoutes = ({children}) => {
 
   const navigate = useNavigate()
-  const auth = useSelector(store => store.authReducer.isAuth)
+  // const auth = useSelector(store => store.authReducer.isAuth)
+
+  const auth = localStorage.getItem("login");
+
+  
+
+
 
   console.log(auth)
 
