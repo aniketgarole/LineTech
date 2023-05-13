@@ -99,7 +99,7 @@ export function BasicUsage() {
           isClosable: true,
         })
 
-        localStorage.setItem("login", true)
+        localStorage.setItem("login", "user")
 
        }
      

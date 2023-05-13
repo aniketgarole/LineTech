@@ -282,9 +282,7 @@ const DIV = styled.div`
     height: 100%;
     
     
-    background-color: rgb(249, 248, 248);
-    color: rgb(144,39,53);
-    text-align: center;
+   
   }
 
 
