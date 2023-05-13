@@ -9,7 +9,7 @@ import Footer from '../components/Footer'
 const Fashion = () => {
   let [search,setsearch]=useSearchParams()
   let url="https://jolly-hose-hen.cyclic.app/quickdata/?category=fashion"
-  const data=["Topwear","jeans","shirt","shoes","deodorants","jackets"]
+  const data=["Topwear","jeans","shirt","shoes","jackets"]
   const grocerydata=useSelector(state=>state.faishion.faishion)
   console.log(grocerydata)
   const dispatch=useDispatch()
