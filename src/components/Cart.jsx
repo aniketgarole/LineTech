@@ -3,7 +3,7 @@ import axios from 'axios';
 import { useEffect } from 'react';
 import { useState } from 'react';
 import { SmallCloseIcon } from '@chakra-ui/icons'
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import "../styles/Cart.css";
 
 import {
@@ -30,6 +30,8 @@ const Cart = ({updateData}) => {
   
   const [data, setData] = useState([])
 const [update, setUpdate] = useState(false)
+
+const navigate = useNavigate()
 
   useEffect(() => {
     getData()
@@ -100,6 +102,11 @@ const [update, setUpdate] = useState(false)
 
 
   localStorage.setItem("totalPrice", totalPrice)
+
+  const hanndleCheckout = () => {
+    console.log("checkout clicked")
+    navigate("/payment")
+  }
 
   return (
 
@@ -183,7 +190,7 @@ const [update, setUpdate] = useState(false)
               </Text>
             </Flex>
           </Stack>
-          <Button className='checkout' bg="rgb(144, 39, 53)" colorScheme="rgb(144, 39, 53)" size="lg" fontSize="md" 
+          <Button className='checkout' bg="rgb(144, 39, 53)" colorScheme="rgb(144, 39, 53)" size="lg" fontSize="md" onClick={hanndleCheckout}
         
           >
             CHECKOUT

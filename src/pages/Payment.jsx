@@ -2,42 +2,64 @@ import React from 'react'
 import "../styles/Payment.css"
 import NavBar from '../components/NavBar'
 import Footer from "../components/Footer"
+import { useToast } from '@chakra-ui/react'
+import { useNavigate } from 'react-router-dom'
 const Payment = () => {
 
     let price = localStorage.getItem("totalPrice")
+
+    const navigate = useNavigate()
+
+    const toast = useToast()
+
+
+    const handlePay = () => {
+        console.log("clicked on pay")
+        toast({
+            position: "top",
+            title: 'Order has been placed successfully.',
+            // description: "User has been registered.",
+            status: 'success',
+            duration: 2000,
+            isClosable: true,
+          })
+
+          navigate("/")
+    }
+
     return (
 
         <div>
             <NavBar />
-            <div class="container mt-5 px-5">
+            <div className="container mt-5 px-5">
 
-                <div class="mb-4">
+                <div className="mb-4">
 
                     <h2>Confirm order and pay</h2>
                     <span>please make the payment, after that you can enjoy all the features and benefits.</span>
 
                 </div>
 
-                <div class="row">
+                <div className="row">
 
-                    <div class="col-md-8">
+                    <div className="col-md-8">
 
 
-                        <div class="card p-3 ">
+                        <div className="card p-3 ">
 
-                            <h6 class="text-uppercase">Payment details</h6>
-                            <div class="inputbox mt-3">
-                                <input type="text" name="name" class="form-control" required="required" />
+                            <h6 className="text-uppercase">Payment details</h6>
+                            <div className="inputbox mt-3">
+                                <input type="text" name="name" className="form-control" required="required" />
                                 <span>Name on card</span> </div>
 
 
-                            <div class="row">
+                            <div className="row">
 
-                                <div class="col-md-6">
+                                <div className="col-md-6">
 
-                                    <div class="inputbox mt-3 mr-2">
-                                        <input type="text" name="name" class="form-control" required="required" />
-                                        <i class="fa fa-credit-card"></i> <span>Card Number</span>
+                                    <div className="inputbox mt-3 mr-2">
+                                        <input type="text" name="name" className="form-control" required="required" />
+                                        <i className="fa fa-credit-card"></i> <span>Card Number</span>
 
 
                                     </div>
@@ -45,16 +67,16 @@ const Payment = () => {
 
                                 </div>
 
-                                <div class="col-md-6">
+                                <div className="col-md-6">
 
-                                    <div class="d-flex flex-row">
+                                    <div className="d-flex flex-row">
 
 
-                                        <div class="inputbox mt-3 mr-2">
-                                            <input type="text" name="name" class="form-control" required="required" /> <span>Expiry</span> </div>
+                                        <div className="inputbox mt-3 mr-2">
+                                            <input type="text" name="name" className="form-control" required="required" /> <span>Expiry</span> </div>
 
-                                        <div class="inputbox mt-3 mr-2">
-                                            <input type="text" name="name" class="form-control" required="required" /> <span>CVV</span> </div>
+                                        <div className="inputbox mt-3 mr-2">
+                                            <input type="text" name="name" className="form-control" required="required" /> <span>CVV</span> </div>
 
 
                                     </div>
@@ -67,27 +89,27 @@ const Payment = () => {
 
 
 
-                            <div class="mt-4 mb-4">
+                            <div className="mt-4 mb-4">
 
-                                <h6 class="text-uppercase">Billing Address</h6>
+                                <h6 className="text-uppercase">Billing Address</h6>
 
 
-                                <div class="row mt-3">
+                                <div className="row mt-3">
 
-                                    <div class="col-md-6">
+                                    <div className="col-md-6">
 
-                                        <div class="inputbox mt-3 mr-2">
-                                            <input type="text" name="name" class="form-control" required="required" />
+                                        <div className="inputbox mt-3 mr-2">
+                                            <input type="text" name="name" className="form-control" required="required" />
                                             <span>Street Address</span> </div>
 
 
                                     </div>
 
 
-                                    <div class="col-md-6">
+                                    <div className="col-md-6">
 
-                                        <div class="inputbox mt-3 mr-2">
-                                            <input type="text" name="name" class="form-control" required="required"
+                                        <div className="inputbox mt-3 mr-2">
+                                            <input type="text" name="name" className="form-control" required="required"
                                             /> <span>City</span> </div>
 
 
@@ -99,22 +121,22 @@ const Payment = () => {
                                 </div>
 
 
-                                <div class="row mt-2">
+                                <div className="row mt-2">
 
-                                    <div class="col-md-6">
+                                    <div className="col-md-6">
 
-                                        <div class="inputbox mt-3 mr-2">
-                                            <input type="text" name="name" class="form-control" required="required" />
+                                        <div className="inputbox mt-3 mr-2">
+                                            <input type="text" name="name" className="form-control" required="required" />
                                             <span>State/Province</span> </div>
 
 
                                     </div>
 
 
-                                    <div class="col-md-6">
+                                    <div className="col-md-6">
 
-                                        <div class="inputbox mt-3 mr-2">
-                                            <input type="text" name="name" class="form-control" required="required" />
+                                        <div className="inputbox mt-3 mr-2">
+                                            <input type="text" name="name" className="form-control" required="required" />
                                             <span>Zip code</span> </div>
 
 
@@ -133,23 +155,23 @@ const Payment = () => {
 
                     </div>
 
-                    <div class="col-md-4">
+                    <div className="col-md-4">
 
-                        <div class="card card-blue p-3 text-white mb-3">
+                        <div className="card card-blue p-3 text-white mb-3">
 
                             <span>You have to pay</span>
-                            <div class="d-flex flex-row align-items-end mb-3">
-                                <h1 class="mb-0 yellow">${price}</h1> <span>.99</span>
+                            <div className="d-flex flex-row align-items-end mb-3">
+                                <h1 className="mb-0 yellow">${price}</h1> <span>.99</span>
                             </div>
                             <span>Enjoy all the features and perk after you complete the payment</span>
-                            <a href="#" class="yellow decoration">Know all the features</a>
-                            <div class="hightlight">
+                            <a href="#" className="yellow decoration">Know all the features</a>
+                            <div className="hightlight">
                                 <span>100% Guaranteed support and update for the next 5 years.</span>
                             </div>
 
                         </div>
-                            <div class="mt-4 mb-4 ">
-                                <button class="btn btn-success px-3">Pay ${price}</button>
+                            <div className="mt-4 mb-4 ">
+                                <button className="btn btn-success px-3" onClick={handlePay} style={{cursor: "pointer"}}>Pay ${price}</button>
                             </div>
 
                     </div>
