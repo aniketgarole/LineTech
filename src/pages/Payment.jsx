@@ -4,6 +4,7 @@ import NavBar from '../components/NavBar'
 import Footer from "../components/Footer"
 import { useToast } from '@chakra-ui/react'
 import { useNavigate } from 'react-router-dom'
+import axios from 'axios'
 const Payment = () => {
 
     let price = localStorage.getItem("totalPrice")
@@ -12,8 +13,22 @@ const Payment = () => {
 
     const toast = useToast()
 
+    let arr;
 
-    const handlePay = () => {
+    const getNumber = async () => {
+        try {
+            let res = await axios.get(`https://jolly-hose-hen.cyclic.app/cart`)
+            console.log(res.data, "getNumber")
+            arr = res.data
+          } catch (error) {
+            console.log(error)
+          }
+    }
+
+    getNumber()
+
+
+    const handlePay = async() => {
         console.log("clicked on pay")
         toast({
             position: "top",
@@ -23,6 +38,21 @@ const Payment = () => {
             duration: 2000,
             isClosable: true,
           })
+
+          for (let i of arr) {
+
+            console.log(i.id)
+
+            try {
+                let res =  await axios.delete(`https://jolly-hose-hen.cyclic.app/cart/${i.id}`)
+                console.log(res)
+              } catch (error) {
+                console.log(error)
+              }
+              
+          }
+
+         
 
           navigate("/")
     }
