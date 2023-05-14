@@ -224,7 +224,7 @@ export function BasicUsage() {
                     <p className='merri'>Manage Orders</p>
                   </Center>
                   <Center>
-                    <p className='merri2'>Tract, Return & Cancel your orders</p>
+                    <p className='merri2'>Track, Return & Cancel your orders</p>
                   </Center>
                   
                 </Box>

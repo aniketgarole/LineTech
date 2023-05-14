@@ -149,7 +149,7 @@ const navigate = useNavigate()
                       +
                     </Button>
                   </Box>
-                  <Text>${el.price * el.quantity}</Text>
+                  <Text>₹{el.price * el.quantity}</Text>
                <Box className='deleteBox'>
 
                   {/* <span className='Delete' style={{marginTop: "-20px"}} onClick={()=>handleDelete(el.id)}>x</span> */}

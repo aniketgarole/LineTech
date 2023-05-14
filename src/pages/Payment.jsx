@@ -191,7 +191,7 @@ const Payment = () => {
 
                             <span>You have to pay</span>
                             <div className="d-flex flex-row align-items-end mb-3">
-                                <h1 className="mb-0 yellow">${price}</h1> <span>.99</span>
+                                <h1 className="mb-0 yellow">₹{price}</h1> <span>.99</span>
                             </div>
                             <span>Enjoy all the features and perk after you complete the payment</span>
                             <a href="#" className="yellow decoration">Know all the features</a>
@@ -201,7 +201,7 @@ const Payment = () => {
 
                         </div>
                             <div className="mt-4 mb-4 ">
-                                <button className="btn btn-success px-3" onClick={handlePay} style={{cursor: "pointer"}}>Pay ${price}</button>
+                                <button className="btn btn-success px-3" onClick={handlePay} style={{cursor: "pointer", padding: "5px 20px"}}>Pay ₹{price}</button>
                             </div>
 
                     </div>
