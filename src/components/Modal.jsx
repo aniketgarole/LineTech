@@ -120,7 +120,7 @@ export function BasicUsage() {
 
   const handleRegister = async() => {
 
-    if (!email.includes("@gmail.com")) {
+    if (!email.includes("@gmail") && !email.includes("@hotmail") && !email.includes("@yahoo")) {
       toast({
         position: "top",
         title: 'Please enter proper email address.',
